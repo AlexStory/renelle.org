@@ -11,7 +11,7 @@
     "prod:build": "NODE_ENV=production eleventy",
     "build": "concurrently \"npm run prod:css\" \"npm run prod:build\" ",
     "tailwind:process": "npx postcss src/assets/main.css --o src/_includes/assets/css/main.css --watch",
-	"start": "concurrently \"npm run tailwind:process\" \"npm run dev:run\""
+    "start": "concurrently \"npm run tailwind:process\" \"npm run dev:run\""
   },
   "repository": {
     "type": "git",

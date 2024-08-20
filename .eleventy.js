@@ -1,6 +1,7 @@
 module.exports = config => {
     config.addPassthroughCopy({
-        "src/_includes/assets/css/main.css": "./main.css"
+        "src/_includes/assets/css/main.css": "./main.css",
+        "src/assets/logo.svg": "./logo.svg",
     });
 
     return {
